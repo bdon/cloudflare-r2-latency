@@ -33,7 +33,7 @@ func main() {
 		return float64(duration.Milliseconds())
 	}
 
-	TRIALS := 10
+	TRIALS := 30
 
 	small_file := "https://r2-public.protomaps.com/protomaps-sample-datasets/1byte.txt"
 	big_file := "https://r2-public.protomaps.com/protomaps-sample-datasets/terrarium-z12.pmtiles"
